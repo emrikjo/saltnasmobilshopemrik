@@ -1,0 +1,91 @@
+body{
+
+}
+
+#container {
+ height: auto;
+ width: 100%;
+ max-width: 900px; 
+ border: solid 2px #000;
+ border-radius: 15px;
+ margin:0 auto;
+background-color: #fff;
+ padding:10px;
+}
+body{
+ background-image:url("image1.jpg");
+ background-size: cover;
+ background.attachment: fixed;
+}
+
+#header{
+ height: 150px;
+ width: 100%;
+ background-image: url("banner.jpg");
+ background-size: cover;
+ background-position: center;
+ background-color: #fff;
+ 
+
+ 
+  
+}
+
+#nav {
+ height: 45px;
+ width: 100%;
+ margin-top: 10px;
+ text-align: center;
+ background-color: #FF9; 
+ margin:0 auto;
+ padding-top:0px;
+ border-top:2px solid #000;
+ border-bottom:2px solid #000;
+ border-radius: 10px;
+}
+#nav a{
+display:block;
+padding 10px 30px;
+background-color: #0066cc;
+color:white;
+text-decoration: none;
+border-radius: 7px;
+}
+
+#nav a:hover{
+background-color: #004c99;
+}
+
+#content {
+ height: autopx;
+ widht: 100%;
+ padding:10px;
+}
+.produktBild {
+width: 150px;
+height: 100px;
+}
+.personalBild {
+width: 450px;
+height: auto;
+}
+#footer {
+ height: 45px;
+ widht: 100%;
+ max-width: 900px; 
+ border: solid 1px #009;
+ border-radius: 10px;
+ margin:0 auto;
+ text-align: center;
+ clear: both;
+ padding;10px;
+}
+#produktBild {
+width: 150px;
+height: auto;
+}
+#personalBild {
+width: 300px;
+height: 200px;
+}
+
